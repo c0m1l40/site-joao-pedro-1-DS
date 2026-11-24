@@ -1,0 +1,113 @@
+
+.fundo-cinza {
+    background-color: #071b35;
+}
+
+.topo {
+    padding: 20px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.topo img {
+    width: 170px;
+}
+
+.letra-logo {
+    color: #66c7ff;
+}
+
+.topo-fluido {
+    border-top: 1px solid #168bd4;
+    border-bottom: 1px solid #168bd4;
+}
+
+.menu {
+    display: flex;
+    gap: 5px;
+}
+
+.menu li {
+    list-style: none;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.menu li a:hover {
+    background-color: dodgerblue;
+    color: #071b35;
+    transition: 0.5s;
+}
+
+body {
+    background-color: #0b2345;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.principal {
+    padding: 20px;
+    color: white;
+    text-align: left;
+    background-color: #15385f;
+    margin-top: 10px;
+}
+
+.cont {
+    min-height: 500px;
+}
+
+.principal-2 {
+    padding: 20px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.principal-2 h1 {
+    color: #e5b94d;
+    margin-bottom: 15px;
+}
+
+.principal p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.caixa {
+    background-color: #102d52;
+    border: 1px solid #168bd4;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.caixa h2 {
+    color: #66c7ff;
+    margin-bottom: 8px;
+}
+
+.caixa img {
+    max-width: 150px;
+}
+
+
+
+
+.menu {
+        flex-wrap: wrap;
+    }
+
+
+/* Logo sem fundo para combinar com o fundo do site */
+.topo img {
+    background-color: transparent;
+    object-fit: contain;
+}
